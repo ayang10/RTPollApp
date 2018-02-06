@@ -1,3 +1,6 @@
+
+<img src="https://user-images.githubusercontent.com/3925903/35862305-36f9198a-0b19-11e8-8a40-2f635ecf5261.PNG" width="400" height="400">
+
 # RTPollApp
 Real Time Polling App
 Using Pusher, Node.js, Express, MongoDB and CanvasJS
