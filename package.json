@@ -4,7 +4,8 @@
   "description": "Real Time Polling App",
   "main": "app.js ",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "Acer Yang",
   "license": "MIT",

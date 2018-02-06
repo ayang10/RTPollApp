@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--/ click ! then tab -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RTPoll App</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Programming Language Vote</h1>
+        <p>Vote for your favorite Language to develop on</p>
+
+        <form id="vote-form">
+            <p>
+                <input type="radio" name="pl" id="java" value="Java" />
+                <label for="java">Java</label>
+            </p>
+            <p>
+                <input type="radio" name="pl" id="javascript" value="Javascript" />
+                <label for="javascript">Javascript</label>
+            </p>
+            <p>
+                <input type="radio" name="pl" id="php" value="Php" />
+                <label for="php">Php</label>
+            </p>
+            <p>
+                <input type="radio" name="pl" id="python" value="Python" />
+                <label for="python">Python</label>
+            </p>
+            <input type="submit" value="Vote" class="btn" />
+        </form>
+
+        <br/><br/>
+
+        <div id="chart" style="height: 300px; width: 100%"></div>
+
+
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.2.2/pusher.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
